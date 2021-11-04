@@ -1,0 +1,38 @@
+#Sargrub theme for GNU GRUB Bootloader
+#made by sarmale2020, licensed under GPL v2.0
+#see more at: https://github.com/sarmale2020/sargrub
+
+title-text: "Boot loader"
+title-color: "#FFFFFF"
+desktop-image: "background.png"
+message-color: "#FFFFFF"
+
++ boot_menu {
+    visible = true
+    top = 100
+    width = 600
+    height = 600
+    item_color = "#FFFFFF"
+    selected_item_color = "#FF0000"
+    item_height = 42
+    item_padding = 4
+    item_spacing = 4
+    scrollbar = true
+    scrollbar_width = 16
+}
+
++ progress_bar {
+    visible = true
+    top = 900
+    bg_color = "#FFFFFF"
+    text = @TIMEOUT_NOTIFICATION_LONG@
+    text_color = "#000000"
+    id = "__timeout__"
+}
+
++ label {
+    text = "Use the arrows to move between the items, use ENTER to boot the selected OS, use E to enter options, use C to get the terminal, use ESC to go back."
+    color = "#FFFFFF"
+    align = "center"
+    top = 1000
+}
