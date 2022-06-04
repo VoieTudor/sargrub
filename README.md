@@ -18,7 +18,7 @@ sudo apt-get install git
 Ok, you installed it, great! Now clone the repository.
 <br>
 ```
-git clone https://gitub.com/z80i9gq/sargrub/
+git clone https://gitub.com/VoieTudor/sargrub/
 ```
 After this,
 <br>
